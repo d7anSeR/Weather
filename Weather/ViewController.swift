@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     @IBOutlet var weather: UILabel!
     @IBOutlet var buttonGetWeather: UIButton!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         buttonGetWeather.addTarget(self, action: #selector(didTabGetWeatherButton), for: .touchUpInside)
